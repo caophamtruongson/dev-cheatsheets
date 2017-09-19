@@ -50,7 +50,8 @@
         * 「hosts」file contains: `127.0.0.1`
 1. Running with extra vars 
     * `ansible-playbook /path/ansible-aws.yml --extra-vars ".........."`
-
+1. Document
+   * [Get started](http://docs.ansible.com/ansible/latest/intro_getting_started.html)
 
 # AWS
 ## CloudFormation
@@ -75,6 +76,8 @@
 1. Login
     * `aws ecr get-login --region YOUR_REGION --registry-ids YOUR_ACCOUNT_ID`
         * Reference: http://docs.aws.amazon.com/general/latest/gr/rande.html#apigateway_region
+1. Document
+   * http://docs.aws.amazon.com/AmazonECR/latest/userguide/amazon_linux_container_image.html
 # Docker
 ## My images
 1. amazonlinux
@@ -94,8 +97,6 @@
         REPOSITORY                                       TAG                 IMAGE ID            CREATED             SIZE
         <none>                                           <none>              4cb134cc72f2        About an hour ago   517 MB
         ```
-
-
-
-    
-    
+# SSH 
+1. How to set up ssh so you aren't asked for a password
+   * https://www.debian.org/devel/passwordlessssh
