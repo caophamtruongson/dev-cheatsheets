@@ -3,6 +3,10 @@
     * `packer build packer.json`
 1. Build AWS AMI: 
     * `packer build -var 'aws_access_key=XXXXXXXXXXXXX' -var 'aws_secret_key=XXXXXXXXXXXXX' packer_aws.json`
+1. Document
+   1. Builder
+      * [Docker](https://www.packer.io/docs/builders/docker.html)
+
 
 # Ansible 
 
