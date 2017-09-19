@@ -45,7 +45,7 @@
             ```
 1. Syntax checking
     * `ansible-playbook ansible-aws.yml -i hosts --syntax-check`
-1. Local installation running
+1. Localhost installation running
     * `ansible-playbook /path/ansible-aws.yml -c local -i /path/hosts --check`
         * 「hosts」file contains: `127.0.0.1`
 1. Running with extra vars 
@@ -87,8 +87,16 @@
 1. nginx-sphinx-doc
     * https://hub.docker.com/r/caophamtruongson/nginx-sphinx-doc/
 ## Commands
+1. Pull
+   * `docker pull amazonlinux`
+1. Run
+   * `docker run -it amazonlinux:latest /bin/bash`
+1. Run with volumes mapping
+   * `docker run -it -v $(PWD):/packer-ansible caophamtruongson/amazonlinux-ansible:latest /bin/bash`
 1. Creating image from running container
     * `docker commit 7d18148c2ef0 caophamtruongson/amazonlinux-XXXXXXXXXXXXX`
+1. Push
+   * `docker push caophamtruongson/amazonlinux`
 1. Import image from「tar」file
     * `docker import docker_image.tar`
         * For checking, run: `docker images`, and checking the newest image        
