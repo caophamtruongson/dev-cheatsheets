@@ -1,3 +1,32 @@
+# Infras as code
+1. Hashicorp's open Source Tools
+   * https://www.hashicorp.com/open-source-tools/
+   ![hashicorp awesome](asset/hashicorp-awesome.png)
+      * Vagrant
+         * https://www.vagrantup.com
+      * Packer
+         * https://www.packer.io
+      * Terraform
+         * https://www.terraform.io
+      * Vault
+         * https://www.vaultproject.io
+      * Consul
+         * https://www.consul.io
+      * Nomad
+         * https://www.nomadproject.io
+1. Jenkins Job DSL
+   * https://github.com/jenkinsci/job-dsl-plugin/wiki
+      * Tutorial
+        * https://github.com/jenkinsci/job-dsl-plugin/wiki/Tutorial---Using-the-Jenkins-Job-DSL
+      * Commands
+        * https://github.com/jenkinsci/job-dsl-plugin/wiki/Job-DSL-Commands
+      * Jenkins core API
+        * http://javadoc.jenkins-ci.org/
+      * Read more
+        * https://wiki.jenkins.io/display/JENKINS/Job+DSL+Plugin
+
+
+
 # Packer
 1. Build: 
     * `packer build packer.json`
