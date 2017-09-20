@@ -9,7 +9,12 @@
 
 
 # Ansible 
+## Document
+   1. Generator
+      * http://phansible.com/
+   1. [Get started](http://docs.ansible.com/ansible/latest/intro_getting_started.html)
 
+## Commands
 1. Ping 
     ```
     ansible all -m ping -i hosts -u ec2-user --private-key ../XXXXXXXXXXXXX.pem
@@ -50,8 +55,6 @@
         * 「hosts」file contains: `127.0.0.1`
 1. Running with extra vars 
     * `ansible-playbook /path/ansible-aws.yml --extra-vars ".........."`
-1. Document
-   * [Get started](http://docs.ansible.com/ansible/latest/intro_getting_started.html)
 
 # AWS
 ## CloudFormation
@@ -79,6 +82,9 @@
 1. Document
    * http://docs.aws.amazon.com/AmazonECR/latest/userguide/amazon_linux_container_image.html
 # Docker
+## Document
+1. Generator
+   * https://phpdocker.io/generator
 ## My images
 1. amazonlinux
     * https://hub.docker.com/r/caophamtruongson/amazonlinux/
