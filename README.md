@@ -186,3 +186,7 @@
     * URL Crawl Errors Counts: query
         * https://developers.google.com/webmaster-tools/search-console-api-original/v3/urlcrawlerrorscounts/query
 
+# Asset
+
+1. Mock your HTTP responses to test your REST API
+    * http://www.mocky.io/
