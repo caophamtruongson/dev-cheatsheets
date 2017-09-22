@@ -185,6 +185,8 @@
         * https://developers.google.com/webmaster-tools/search-console-api-original/v3/how-tos/performance
     * URL Crawl Errors Counts: query
         * https://developers.google.com/webmaster-tools/search-console-api-original/v3/urlcrawlerrorscounts/query
+    * Sample
+        * https://developers.google.com/webmaster-tools/search-console-api-original/v3/how-tos/search_analytics#top-11-20-mobile-queries-for-the-date-range-sorted-by-click-count-descending
 
 # Asset
 
