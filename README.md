@@ -168,7 +168,10 @@
                 grant_type:refresh_token
                 ```
 1. Google Web Master
-    * https://developers.google.com/webmaster-tools/search-console-api-original/
+    * Tool screen
+        * https://www.google.com/webmasters/tools/home
+    * API
+        * https://developers.google.com/webmaster-tools/search-console-api-original/
 1. Google Search Console
     * Query Editor
         * https://developers.google.com/webmaster-tools/search-console-api-original/v3/searchanalytics/query#try-it
