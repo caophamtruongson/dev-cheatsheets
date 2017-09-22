@@ -148,3 +148,41 @@
 ## My samples
 1. Simple react
    * https://github.com/caophamtruongson/zfamilia_sample_react
+
+# Third party
+## Google
+
+1. APIs and services Library
+    * https://console.developers.google.com/apis/library
+    * https://console.cloud.google.com/apis/library
+    * https://developers.google.com/apis-explorer/?hl=en_US#p/
+1. OAuth2 API
+    * Getting access token from refresh token
+        * https://www.googleapis.com/oauth2/v4/token
+            * POST
+                ```
+                refresh_token:XXXXXXXXXX
+                client_id:XXXXXXXXXX.apps.googleusercontent.com
+                client_secret:XXXXXXXXXX
+                redirect_uri:http://XXXXXXXXXX
+                grant_type:refresh_token
+                ```
+1. Google Web Master
+    * https://developers.google.com/webmaster-tools/search-console-api-original/
+1. Google Search Console
+    * Query Editor
+        * https://developers.google.com/webmaster-tools/search-console-api-original/v3/searchanalytics/query#try-it
+    * Usage Limits
+        * https://developers.google.com/webmaster-tools/search-console-api-original/v3/limits
+    * Query Reference
+        * https://developers.google.com/webmaster-tools/search-console-api-original/v3/searchanalytics/query
+    * Search Traffic document
+        * https://support.google.com/webmasters/topic/4589099?hl=en&ref_topic=4558844
+            * https://support.google.com/webmasters/answer/6155685?hl=en&ref_topic=4589099
+    * What are impressions, position, and clicks?
+        * https://support.google.com/webmasters/answer/7042828#position
+    * Performance Tips
+        * https://developers.google.com/webmaster-tools/search-console-api-original/v3/how-tos/performance
+    * URL Crawl Errors Counts: query
+        * https://developers.google.com/webmaster-tools/search-console-api-original/v3/urlcrawlerrorscounts/query
+
