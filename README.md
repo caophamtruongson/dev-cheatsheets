@@ -191,7 +191,7 @@
     * Sample
         * https://developers.google.com/webmaster-tools/search-console-api-original/v3/how-tos/search_analytics#top-11-20-mobile-queries-for-the-date-range-sorted-by-click-count-descending
     * Handle Errors
-        * https://developers.google.com/drive/v3/web/handle-errors
+        * https://developers.google.com/webmaster-tools/search-console-api-original/v3/errors
 
 # Asset
 
